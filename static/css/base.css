@@ -1,0 +1,89 @@
+*,
+::before,
+::after{
+    margin:0;
+    padding:0;
+    -webkit-tap-highlight-color: transparent;/* 清楚点击默认的高亮效果 */
+    -webkit-box-sizing: border-box;/* 以border开始计算宽度 */
+}
+body{
+    font-size:14px;
+    font-family: "Microsoft Yahei",sans-serif;/* 第二个为手机字体样式 */
+}
+a{
+    text-decoration: none;
+    color:#000;
+}
+ul{
+    list-style: none;
+}
+input,textarea{
+    border: none;
+    resize: none;
+    outline: none; /* 清除默认选中效果 */
+    -webkit-appearance: none; /* 清除浏览器默认样式 */
+}
+/* 清除浮动 */
+.clearfix::before,
+.clearfix::after{
+    content: '.';
+    display: block;
+    height: 0;
+    line-height:0;
+    visibility: hidden;
+    clear: both;
+}
+[class^="icon"]{
+    background: url('../imgs/sprites.png') no-repeat;
+    background-size: 200px 200px;
+}
+.zyy_topBar {
+    height: 45px;
+    width: 100%;
+    background: url(../imgs/header-bg.png) repeat-x;
+    background-size: 1px 44px;
+    border-bottom: 1px solid #e0e0e0;
+    position: absolute;
+    z-index: 1000;
+}
+.zyy_topBar h2{
+    text-align: center;
+    font-size:16px;
+    font-family: sans-serif;
+    font-weight: inherit;
+    line-height: 44px;
+}
+.zyy_topBar form {
+    width: 100%;
+    height: 44px;
+    padding: 0 40px;
+}
+.zyy_topBar .icon_back {
+    background-position: -20px 0;
+    width: 20px;
+    height: 20px;
+    display: block;
+    margin: 12px 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.zyy_topBar form input {
+    width: 100%;
+    height: 32px;
+    border: 1px solid #bfbfbf;
+    border-radius: 4px;
+    margin-top: 6px;
+}
+.zyy_topBar .icon_menu {
+    background-position: -60px 0;
+    width: 40px;
+    height: 44px;
+    display: block;
+    padding: 12px 10px;
+    background-clip: content-box;
+    background-origin: content-box;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
