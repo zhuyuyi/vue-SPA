@@ -22,9 +22,13 @@ npm run build
 后端使用node中的express框架，数据库为mongodb，
 希望半个月的项目能取得良好的效果。
 
-#项目目前有首页、商品列表页、商品详细页、搜索页、登录页、注册页、重置密码页、购物车页、地址页、订单生成页、订单列表页、个人信息页、留言板页、关注商品页。
-实现了登录、注册、修改密码、留言、点赞功能、搜索商品、加入删除编辑购物车、添加编辑删除地址、订单的生成、添加删除关注的商品等功能。
+#项目目前有首页、商品列表页、商品详细页、搜索页、登录页、注册页、重置密码页、购物车页、地址页、订单生成页、
+订单列表页、个人信息页、留言板页、关注商品页。
+实现了登录、注册、修改密码、留言、点赞功能、搜索商品、加入删除编辑购物车、添加编辑删除地址、
+订单的生成、添加删除关注的商品等功能。
 bug可能较多需要进步一改进。（新手上路，勿喷）
+
+#项目前端运用了vue的很多知识，如vuex、router、vue-loader、components、axios等
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
