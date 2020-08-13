@@ -17,7 +17,7 @@
     "express": "^4.16.3",
     "jade": "^1.11.0",
     "mint-ui": "^2.2.3",
-    "mongoose": "^5.2.9",
+    "mongoose": "^5.7.5",
     "morgan": "^1.9.0",
     "serve-favicon": "^2.5.0",
     "vue": "^2.5.2",
